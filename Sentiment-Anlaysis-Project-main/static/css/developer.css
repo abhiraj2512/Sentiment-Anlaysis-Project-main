@@ -1,0 +1,75 @@
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(45deg, 
+      rgba(245,70,66, 0.75), 
+      rgba(8,83,156, 0.75)), url('../images/development-teams.png');
+
+}
+.profile-card{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    background-color: rgb(241, 247, 247);
+    padding: 13px;
+    align-items: center;
+    border-radius: 95%;
+    box-shadow: 0 0 22px #3336;
+    transition: .3s;
+}
+.profile-card:hover{
+    border-radius: 10px;
+    height: 270px;
+}
+.profile-card .img-div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.profile-card:hover .img-div{
+    transform: translate(0,-60px);
+    transition: 0.3s;
+}
+img{
+    height: 300px;
+}
+.img-div img{
+    width: 90%;
+    height: 90%;
+    border-radius: 60%;
+    transition: 0.3s;
+}
+.profile-card:hover img{
+    border-radius: 10px;
+}
+.caption{
+    text-align: center;
+    transform: translate(0,-80px);
+    opacity: 0;
+    transform: .3s;
+}
+.profile-card:hover .caption{
+    opacity: 1;
+
+}
+.caption h3{
+    font-size: 21px
+}
+.caption p{
+    font-size: 17px;
+    color: rgb(15, 212, 97);
+}
+
+.caption .social-link{
+    color:black;
+    margin-right: 9px;
+    font-size: 16px;
+}
+.social-link:hover a{
+    color:blue
+}
+
