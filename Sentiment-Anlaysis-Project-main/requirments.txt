@@ -1,0 +1,9 @@
+flask
+pandas
+numpy
+scikit-learn
+gunicorn
+requests
+beautifulsoup4
+textblob
+nltk
